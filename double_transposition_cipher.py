@@ -1,5 +1,10 @@
 def remove_duplicates(key):
-    return "".join(sorted(set(key), key=key.index))
+    result = []
+    for char in key:
+        if char not in result and char != ' ':  # added the check for space character
+            result.append(char)
+    return ''.join(result)
+
 
 def display_matrix(message, key):
     matrix = [list(message[i:i+len(key)]) for i in range(0, len(message), len(key))]
