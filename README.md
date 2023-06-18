@@ -10,17 +10,17 @@ The script prompts the user for a plaintext message and two keys. It then perfor
 
 Clone this repository to your local machine to get started. 
 
-[backtick][backtick][backtick]bash
+```bash
 git clone https://github.com/your-username/DoubleTranspositionCipher.git
 cd DoubleTranspositionCipher
-[backtick][backtick][backtick]
+```
 
 ## Usage
 
 To use this program, navigate to the directory where it's located and run the Python script:
 
-[backtick][backtick][backtick]bash
+```bash
 python3 double_transposition_cipher.py
-[backtick][backtick][backtick]
+```
 
-When prompted, input the message you want to encrypt and the two keys you want to use for the encryption. The program will then perform the encryption and display the process.
+When prompted, please just go ahead and input the message you want to encrypt and the two keys you wish to use for the encryption. The program will then perform the encryption and display the process.
